@@ -1,0 +1,6 @@
+<picture{{#if class}} class="{{class}}"{{/if}}{{#if data}} {{data}}{{/if}}>
+  {{#each source}}
+  <source srcset="{{srcset}}" media="{{media}}">
+  {{/each}}
+  <img src="{{src}}" alt="{{alt}}" />
+</picture>
