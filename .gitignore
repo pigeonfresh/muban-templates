@@ -3,5 +3,6 @@
 .senggenerator
 src/
 node_modules/
+source/frontend/
 
 !templates/**/.senggenerator
