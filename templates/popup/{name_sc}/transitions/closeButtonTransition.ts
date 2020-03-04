@@ -1,7 +1,5 @@
-import { gsap } from 'gsap';
+import { TimelineMax } from 'gsap';
 
-export const closeButtonTransition = (closeButton: HTMLElement): TimelineMax => {
-  return gsap.timeline().from(closeButton, {
+export const closeButtonTransition = (closeButton: HTMLElement): TimelineMax => new TimelineMax.timeline().from(closeButton, {
     autoAlpha: 0,
-  })
-};
+  });
