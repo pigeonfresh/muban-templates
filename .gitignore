@@ -2,3 +2,6 @@
 .vscode
 .senggenerator
 src/
+node_modules/
+
+!templates/**/.senggenerator
